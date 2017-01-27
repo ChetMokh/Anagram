@@ -14,6 +14,7 @@ public class Anagram {
 	public static void main(String[] args) {
 		
 		char[] firstWord, secondWord;
+		String name;
 		Scanner myScanner = new Scanner(System.in);
 		System.out.println("Enter First Word:");
 		firstWord = myScanner.nextLine().toCharArray();
